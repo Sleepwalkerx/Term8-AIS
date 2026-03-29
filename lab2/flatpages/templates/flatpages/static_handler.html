@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Привет, Мир!</title>
+    <link rel="stylesheet" href="{% static 'flatpages/css/index.css' %}">
+</head>
+<body>
+    <h1>Привет, Мир!</h1>
+    <h2>Это учебный сайт, с его помощью будут изучены технологии Python, Django, HTML и CSS.</h2>
+    <h3>Как видите, здесь используются заголовки различных уровней.</h3>
+
+    <img src="{% static 'flatpages/img/dpb-logo.png' %}" alt="Логотип">
+
+    <h4>Здесь есть маркированный список:</h4>
+    <ul>
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+        <li>Последний элемент</li>
+    </ul>
+
+    <h4>И нумерованный список:</h4>
+    <ol>
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+        <li>Последний элемент</li>
+    </ol>
+
+    <p>И даже таблица:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Столбик 1</th>
+                <th>Столбик 2</th>
+                <th>Столбик 3</th>
+                <th>Столбик 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1.1</td><td>1.2</td><td>1.3</td><td>1.4</td></tr>
+            <tr><td>2.1</td><td>2.2</td><td>2.3</td><td>2.4</td></tr>
+            <tr><td>3.1</td><td>3.2</td><td>3.3</td><td>3.4</td></tr>
+            <tr><td>4.1</td><td>4.2</td><td>4.3</td><td>4.4</td></tr>
+            <tr><td>5.1</td><td>5.2</td><td>5.3</td><td>5.4</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>

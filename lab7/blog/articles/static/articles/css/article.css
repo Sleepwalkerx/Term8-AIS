@@ -1,0 +1,55 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.all-posts-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-top {
+    width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
